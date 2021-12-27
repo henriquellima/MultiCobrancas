@@ -1,0 +1,81 @@
+.container-table {
+  width: 90%;
+}
+
+.title-client-and-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-element {
+  cursor: pointer;
+}
+
+.descriptionSpace {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: wrap;
+  max-width: 20ch;
+}
+
+.table-edit-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-delete-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ae1100;
+}
+
+.tableElement-expired {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #971d1d;
+
+  width: 49px;
+  height: 19px;
+
+  background: #FFEFEF;
+  border-radius: 8px;
+
+  padding: 4px;
+}
+.tableElement-preview {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;   
+  color: #c5a605;
+  min-width: 49px;
+  height: 19px;
+
+  background: #eef6f6;
+  border-radius: 8px;
+
+  padding: 4px;
+}
+.tableElement-paid {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1fa7af;
+  width: 49px;
+  height: 19px;
+
+  background: #eef6f6;
+  border-radius: 8px;
+
+  padding: 4px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

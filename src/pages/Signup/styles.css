@@ -1,0 +1,107 @@
+.container-signup {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  background: #f0f0f5;
+  min-width: fit-content;
+  height: 100%;
+  padding: 3% 60px 0 49px;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 5%;
+  background: #f8f8f9;
+  align-items: center;
+}
+
+.container-form form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+
+  gap: 20px;
+}
+
+.container-form button {
+  margin-top: 26px;
+}
+
+.span-redirect-login {
+  margin-top: 15px;
+}
+
+.lines {
+  position: absolute;
+  display: flex;
+  justify-self: flex-end;
+
+  top: 90%;
+  gap: 10px;
+}
+
+.line {
+  width: 82px;
+  height: 6px;
+
+  border-radius: 20px;
+}
+
+.line-gray {
+  background: #dedee9;
+}
+
+.line-green {
+  background: #0e8750;
+}
+
+.signup-check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 24px;
+
+  height:fit-content;
+    padding: 80px 95px;
+  background: #f0f0f5;
+  border-radius: 30px;
+}
+
+.signup-check h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #343447;
+}
+
+.password-icon{
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 36px;
+  width: 25px;
+
+  cursor: pointer;
+}
+
+.confirm{
+  margin-top: 126px;
+}
+
+.back-to-step-one{
+  cursor:pointer;
+}

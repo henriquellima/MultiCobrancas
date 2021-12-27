@@ -1,0 +1,159 @@
+.page-modal-addCharges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  backdrop-filter: blur(3px);
+
+  background: rgba(145, 154, 150, 0.3);
+}
+
+.modal-addCharges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+
+  position: relative;
+
+  z-index: 4;
+  border-radius: 30px;
+  background-color: white;
+  padding: 0px 30px 0 30px;
+
+  width: 450px;
+
+  color: #3f3f55;
+}
+
+.modal-addCharges-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 30px;
+
+  width: 100%;
+
+  margin-bottom: -15px;
+}
+
+.closeIcon-header {
+  position: absolute;
+  right: 6%;
+  top: 5%;
+  width: 22px;
+  height: 22px;
+
+  cursor: pointer;
+}
+
+.img-header {
+  width: 34px;
+  height: 34px;
+
+  margin-bottom: 32px;
+  margin-right: 3%;
+}
+
+.form-addCharges {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+  width: 100%;
+}
+
+.modal-addCharges Input {
+  width: 100%;
+}
+
+.modal-addCharges Button {
+  margin: 20px 0px;
+}
+
+.inputs-addCharges {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons-addCharges {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+
+  order: 0;
+}
+
+textarea {
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+  height: 88px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px 14px;
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+  color: #667085;
+}
+.textArea {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input:focus {
+  border-color: #8b9fc0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.24);
+}
+
+.textArea label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #344054;
+}
+
+.inputCurrencyMask {
+  all: unset;
+  box-sizing: border-box;
+  width: 368px;
+  max-height: 44px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px 14px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #667085;
+}
+
+div .maskDiv {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}

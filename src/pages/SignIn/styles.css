@@ -1,0 +1,84 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  width: 65%;
+
+
+  background: #f8f8f9;
+}
+
+.pageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.divImage {
+  background-image: url('../../assets/side-login-img.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100%;
+  width: 35%;
+}
+.imagetext {
+  color: #034a2a;
+
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+
+  text-align: center;
+
+  margin-top: 13vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.form button {
+  margin-top: 46px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+}
+
+.linkToRegister {
+  margin-top: 20px;
+  color: #da0175;
+
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+span {
+  font-size: 14px;
+}
+
+h2 {
+  margin-bottom: 32px;
+}
+
+
+.forget{
+  display: flex;
+}
+
+.forget span{
+  margin-top:-2px;
+  margin-left: -120px;
+
+}

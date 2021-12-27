@@ -1,0 +1,170 @@
+.container-table {
+  height: fit-content;
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+
+  margin-bottom:20px;
+}
+
+.largeTable {
+  width: 556px;
+  margin-bottom:50px;
+}
+.title-and-icon{
+  display:flex;
+  align-items:center;
+
+}
+
+.smallTable {
+  width: 360px;
+  
+}
+
+.table-header {
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.smallTable .table-header{
+  padding:18px 20px 16px 56px;
+}
+
+.largeTable .table-header{
+  padding:18px 24px 16px 24px;
+}
+.length {
+  width: 52px;
+  height: 21px;
+
+  text-align: center;
+
+  
+  border-radius: 8px;
+}
+
+.red, .red span{
+  background: #ffefef;
+  color: #971d1d;
+}
+
+.blue, .blue span {
+  background: #EEF6F6;
+  color:#1FA7AF;
+}
+.yellow, .yellow span {
+  background: #FCF6DC;
+  color:#C5A605;
+}
+.length span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+
+ 
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+
+  color: #3f3f55;
+
+  margin: 0px 8px;
+ 
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 52px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 50px;
+
+  letter-spacing: 0.005em;
+  border-bottom: 1px solid #eff0f7;
+
+  color: #3f3f55;
+}
+
+.line-right{
+  flex-grow: 1;
+  max-width: 100px;
+  text-align: center;
+}
+.line-left{
+  flex-grow: 1;
+  max-width: 100px;
+  text-align: center;
+}
+.line-center{
+  flex-grow: 1;
+  max-width: 100px;
+  text-align: center;
+}
+
+.column-right{
+  flex-grow: 1;
+  max-width: 100px;
+  
+  text-align: center;
+}
+
+.column-left{
+  flex-grow: 1;
+  max-width: 100px;
+  text-align: center;
+}
+
+.column-center{
+  flex-grow: 1;
+  max-width: 100px;
+  text-align: center;
+}
+
+
+.table-line {
+  display: flex;
+  height: fit-content;
+  justify-content: space-around;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.table-line span {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+
+  letter-spacing: 0.005em;
+
+  color: #6e6e85;
+}
+
+
+.see-all{
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px;
+
+}
+
+.see-all .linkToRegister{
+  margin: 0;
+}

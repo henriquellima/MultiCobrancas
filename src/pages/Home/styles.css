@@ -1,0 +1,40 @@
+.container-home {
+  display: flex;
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 80px;
+
+  width: 100%;
+}
+
+.main {
+    padding: 0 50px;    
+    height: 100%;
+    width: 100%;
+}
+
+.smallTables{
+    display:flex;
+   
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.largeTables{
+    display:flex;
+    gap:20px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}

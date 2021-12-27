@@ -1,0 +1,48 @@
+.resume-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 360px;
+  height: 90px;
+  border: 1px solid rgba(148, 148, 148, 0.24);
+  border-radius: 30px;
+}
+
+.blue {
+  background: #eef7f7;
+}
+
+.orange {
+  background: #fcf6dc;
+}
+
+.red {
+  background: #ffefef;
+}
+
+.container-blocks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-top: 19px;
+}
+
+.title-and-values h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+
+  color: #3f3f55;
+}
+
+.title-and-values h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+
+  color: #3f3f55;
+}

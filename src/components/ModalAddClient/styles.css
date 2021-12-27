@@ -1,0 +1,99 @@
+.page-modal-addClient {
+    width: 100%;
+    height: 100%;
+  
+    position: fixed;
+    z-index: 2;
+    top:0;
+    bottom: 0;
+    left: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(3px);
+  
+    background: rgba(145, 154, 150, 0.3);
+  }
+  
+  .modal-addClient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    position: relative;
+
+    z-index: 3;
+  
+    border-radius: 30px;
+    background-color: white;  
+    padding: 15px 30px 3px 30px;
+
+    width: 450px;
+
+    color: #3F3F55;
+  }
+
+  .modal-addClient-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+
+    margin-bottom: -15px;
+  }
+
+
+  
+  .closeIcon-header {
+    position: absolute;
+    right: 6%;
+    top: 5%;
+  
+    height: 3%;
+    width: 3%;
+  
+    cursor: pointer;
+  }
+
+  .img-header{
+    width: 34px;
+    height: 34px;
+
+    margin-bottom: 32px;
+    margin-right: 3%;
+  }
+
+  .form-addClient{
+    gap: 10px;
+    width: 100%;
+    max-height: 500px;
+  
+    display: flex;
+    flex-direction: column;  
+  }
+
+  .modal-addClient Input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 7px;  
+  }
+    
+  .modal-addClient Button {
+    margin: 20px 0px;
+  }  
+
+  .inputs-addClient{
+    display: flex;
+    gap:10px
+  }
+
+  .buttons-addClient{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+
+      order: -1;
+  }
+

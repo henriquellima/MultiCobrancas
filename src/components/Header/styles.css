@@ -1,0 +1,38 @@
+.header-home {
+    display: flex;
+  
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 60px;
+    margin: 0 32px;
+    margin-left:65px;
+    height: fit-content;
+    border-bottom: 1px solid #acd9c5;
+    justify-content: space-between;
+  }
+  
+  .title-home {
+    color: #343447;
+    font-size: 26px;
+    line-height: 130%;
+  }
+  .user-nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .user-nav h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0e8750;
+  
+    margin: 0px 8px;
+  }
+  
+  .arrowDown {
+    cursor: pointer;
+  }  

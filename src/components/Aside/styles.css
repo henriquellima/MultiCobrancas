@@ -1,0 +1,36 @@
+.container-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 81px;
+  position: fixed;
+  padding: 20px 0;
+  z-index: 100;
+}
+
+.container-aside-icon {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.container-aside-icon span {
+  color: #343447;
+ 
+}
+div .pink-decoration {
+  color: #da0175;
+  border-right:2px solid #da0175;
+ 
+}
+
+.link {
+  text-decoration: none;
+  color: #343447;
+}
+
+

@@ -1,0 +1,27 @@
+.button-component {
+  all: unset;
+
+  text-align: center;
+  align-self: center;
+  border-radius: 10px;
+  cursor: pointer;
+
+  height: 33px;
+  width: 160px;
+}
+.pink {
+  background-color: #da0175;
+  color: white;
+}
+.grey {
+  background-color: #F8F8F9;
+  color: #0E8750;
+  border: 1px solid #DEDEE9;
+}
+
+.canceled{
+  background-color: grey;
+  color: white;
+  cursor: default;
+}
+
